@@ -1,0 +1,37 @@
+A = { 1,2,3,4,5,3}
+B = {1,2,5,8}
+
+print(A.difference(B))
+print(B.difference(A))
+A.intersection_update(B)
+print(A)
+
+V = {"Tokyo","Seoul","New York"}
+X = {"Seoul","Tokyo","New York"}
+
+print(V.isdisjoint(X))
+print(V.issuperset(X))
+print(V.issubset(X))
+
+V. add("Kenebera")
+print(V)
+
+X.remove("Seoul")
+print(X)
+
+
+print(X)
+
+
+X.discard("kakaka")
+print(X)
+
+
+d = V.pop()
+print(V)
+print(d)
+
+
+
+V.clear()
+print(V)

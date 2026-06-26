@@ -1,0 +1,13 @@
+from datetime import datetime
+
+a = input("Enter the name:")
+hour = datetime.now().hour
+
+if hour>0 and hour<12:
+	print("good morning",a,"sir")
+	
+elif hour>12 and hour<17:
+	print("good noon", a, "sir")
+	
+else:
+	print("good evening",a,"sir")

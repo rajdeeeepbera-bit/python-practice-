@@ -1,0 +1,11 @@
+cities_name1 = input("Enter cities name: ").split()
+
+cities_name2 = input("Enter more cites name: ").split()
+a = set(cities_name1)
+b = set(cities_name2)
+
+x = a.intersection(b)
+print(x)
+
+u = a.symmetric_difference(b)
+print(u)

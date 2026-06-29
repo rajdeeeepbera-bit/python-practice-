@@ -1,0 +1,31 @@
+name1 = input("Enter the first name: ")
+name2 = input("Enter the second name: ")
+name3 = input("Enter the third name: ")
+a = [name1,name2,name3]
+print(a)
+
+x = ("|".join(a))
+print(x)
+
+if "Rajdeep" in a:
+	print("Hello Rajdeep sir")
+	
+else:
+	print("Heloo everyone")
+	
+age1 = int(input("Enter the age of name1: "))
+age2 = int(input("Enter the age of name2: "))
+age3 = int(input("Enter the age of name3: "))
+
+print(f"name1's age is {age1}")
+
+print(f"name2's age is {age2}")
+
+print(f"name3's age is {age3}")	
+
+if age1 >18  and age2 >18 and age3  >18:
+	print("They are adults")
+	
+else:
+	print("They are minors") 	
+	
